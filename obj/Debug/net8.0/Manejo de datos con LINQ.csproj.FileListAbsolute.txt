@@ -1,0 +1,14 @@
+C:\Users\mauro\OneDrive\03 - Dev\.Net c#\Manejo de datos con LINQ\bin\Debug\net8.0\Manejo de datos con LINQ.exe
+C:\Users\mauro\OneDrive\03 - Dev\.Net c#\Manejo de datos con LINQ\bin\Debug\net8.0\Manejo de datos con LINQ.deps.json
+C:\Users\mauro\OneDrive\03 - Dev\.Net c#\Manejo de datos con LINQ\bin\Debug\net8.0\Manejo de datos con LINQ.runtimeconfig.json
+C:\Users\mauro\OneDrive\03 - Dev\.Net c#\Manejo de datos con LINQ\bin\Debug\net8.0\Manejo de datos con LINQ.dll
+C:\Users\mauro\OneDrive\03 - Dev\.Net c#\Manejo de datos con LINQ\bin\Debug\net8.0\Manejo de datos con LINQ.pdb
+C:\Users\mauro\OneDrive\03 - Dev\.Net c#\Manejo de datos con LINQ\obj\Debug\net8.0\Manejo de datos con LINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mauro\OneDrive\03 - Dev\.Net c#\Manejo de datos con LINQ\obj\Debug\net8.0\Manejo de datos con LINQ.AssemblyInfoInputs.cache
+C:\Users\mauro\OneDrive\03 - Dev\.Net c#\Manejo de datos con LINQ\obj\Debug\net8.0\Manejo de datos con LINQ.AssemblyInfo.cs
+C:\Users\mauro\OneDrive\03 - Dev\.Net c#\Manejo de datos con LINQ\obj\Debug\net8.0\Manejo de datos con LINQ.csproj.CoreCompileInputs.cache
+C:\Users\mauro\OneDrive\03 - Dev\.Net c#\Manejo de datos con LINQ\obj\Debug\net8.0\Manejo de datos con LINQ.dll
+C:\Users\mauro\OneDrive\03 - Dev\.Net c#\Manejo de datos con LINQ\obj\Debug\net8.0\refint\Manejo de datos con LINQ.dll
+C:\Users\mauro\OneDrive\03 - Dev\.Net c#\Manejo de datos con LINQ\obj\Debug\net8.0\Manejo de datos con LINQ.pdb
+C:\Users\mauro\OneDrive\03 - Dev\.Net c#\Manejo de datos con LINQ\obj\Debug\net8.0\Manejo de datos con LINQ.genruntimeconfig.cache
+C:\Users\mauro\OneDrive\03 - Dev\.Net c#\Manejo de datos con LINQ\obj\Debug\net8.0\ref\Manejo de datos con LINQ.dll

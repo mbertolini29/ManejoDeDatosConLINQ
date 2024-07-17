@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>  <!-- de ejecutable, app de consola. -->
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Manejo_de_datos_con_LINQ</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings> <!-- te permite omitir de usar los using linq en el proyecto. -->
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
