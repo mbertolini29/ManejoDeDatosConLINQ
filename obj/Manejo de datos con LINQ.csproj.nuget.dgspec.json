@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mauro\\OneDrive\\03 - Dev\\.Net c#\\Manejo de datos con LINQ\\Manejo de datos con LINQ\\Manejo de datos con LINQ.csproj": {}
+    "C:\\Users\\mauro\\OneDrive\\03 - Dev\\.Net c#\\Manejo de datos con LINQ\\ManejoDeDatosConLINQ\\Manejo de datos con LINQ.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mauro\\OneDrive\\03 - Dev\\.Net c#\\Manejo de datos con LINQ\\Manejo de datos con LINQ\\Manejo de datos con LINQ.csproj": {
+    "C:\\Users\\mauro\\OneDrive\\03 - Dev\\.Net c#\\Manejo de datos con LINQ\\ManejoDeDatosConLINQ\\Manejo de datos con LINQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mauro\\OneDrive\\03 - Dev\\.Net c#\\Manejo de datos con LINQ\\Manejo de datos con LINQ\\Manejo de datos con LINQ.csproj",
+        "projectUniqueName": "C:\\Users\\mauro\\OneDrive\\03 - Dev\\.Net c#\\Manejo de datos con LINQ\\ManejoDeDatosConLINQ\\Manejo de datos con LINQ.csproj",
         "projectName": "Manejo de datos con LINQ",
-        "projectPath": "C:\\Users\\mauro\\OneDrive\\03 - Dev\\.Net c#\\Manejo de datos con LINQ\\Manejo de datos con LINQ\\Manejo de datos con LINQ.csproj",
+        "projectPath": "C:\\Users\\mauro\\OneDrive\\03 - Dev\\.Net c#\\Manejo de datos con LINQ\\ManejoDeDatosConLINQ\\Manejo de datos con LINQ.csproj",
         "packagesPath": "C:\\Users\\mauro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mauro\\OneDrive\\03 - Dev\\.Net c#\\Manejo de datos con LINQ\\Manejo de datos con LINQ\\obj\\",
+        "outputPath": "C:\\Users\\mauro\\OneDrive\\03 - Dev\\.Net c#\\Manejo de datos con LINQ\\ManejoDeDatosConLINQ\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

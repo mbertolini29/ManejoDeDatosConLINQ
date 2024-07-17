@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Manejo_de_datos_con_LINQ
-build_property.ProjectDir = C:\Users\mauro\OneDrive\03 - Dev\.Net c#\Manejo de datos con LINQ\Manejo de datos con LINQ\
+build_property.ProjectDir = C:\Users\mauro\OneDrive\03 - Dev\.Net c#\Manejo de datos con LINQ\ManejoDeDatosConLINQ\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
