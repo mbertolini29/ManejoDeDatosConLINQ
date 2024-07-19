@@ -1,6 +1,13 @@
 ﻿LinqQueries queries = new LinqQueries();    
 
-PrintValues(queries.AllCollection());
+//toda la coleccion
+//PrintValues(queries.AllCollection());
+
+//libros desp del 2000.
+//PrintValues(queries.BooksAfter2000());
+
+//libros que tienen mas de 250 pag y tienen la palabra in action
+PrintValues(queries.BooksWithMore250PagesWithWordsAction());
 
 void PrintValues(IEnumerable<Book> booksList)
 {
