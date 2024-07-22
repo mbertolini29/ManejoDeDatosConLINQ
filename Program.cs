@@ -7,7 +7,22 @@
 //PrintValues(queries.BooksAfter2000());
 
 //libros que tienen mas de 250 pag y tienen la palabra in action
-PrintValues(queries.BooksWithMore250PagesWithWordsAction());
+//PrintValues(queries.BooksWithMore250PagesWithWordsAction());
+
+//todos los libros tienen status    
+//Console.WriteLine($" Todos los libros tienen Status? - {queries.AllBooksHaveStatus()}");
+
+//algun libro fue publicado en 2005?
+//Console.WriteLine($" algun libro fue publicado en 2005? - {queries.IfAnyBookWasPublishedIn2005()}");
+
+//libros que son de python
+//PrintValues(queries.BooksPython());
+
+//libros de java por nombres asccendentes.
+//PrintValues(queries.BooksJavaForNameAscending());
+
+//tres primero libros filtrados con select
+PrintValues(queries.TopThreeBooksColection());
 
 void PrintValues(IEnumerable<Book> booksList)
 {
