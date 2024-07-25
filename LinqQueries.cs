@@ -31,7 +31,7 @@ public class LinqQueries
 
     public IEnumerable<Book> BooksWithMore250PagesWithWordsAction()
     {
-        return booksCollection.Where(p => p.PageCount > 250 && p.Title.Contains("in Action"));       
+        return booksCollection.Where(p => p.PageCount > 250 && p.Title.Contains()"in Action"));       
         //return from l in booksCollection where l.PageCount > 250 && p.Title.Contains("in Action") select l; 
     }
 
@@ -80,5 +80,69 @@ public class LinqQueries
     {
         return booksCollection.Take(3)
                               .Select(p => new Book() { Title = p.Title, PageCount = p.PageCount });
+    }
+
+    public int CountBooksBetween200and500Pages()
+    {
+        return booksCollection.Where(p => p.PageCount >= 200 && p.PageCount <= 500).Count();
+    }
+    
+    public long CountBooksBetween200and500PagesLong()
+    {
+        return booksCollection.Where(p => p.PageCount >= 200 && p.PageCount <= 500).LongCount();
+    }
+
+    public DateTime MinPublicationDate()
+    {
+        return booksCollection.Min(p => p.PublishedDate);
+    }
+
+    public Book BookMinNumPage()
+    {
+        return booksCollection.Where(p=>p.PageCount>0).MinBy(p=>p.PageCount);
+    }
+
+    public string BooksTitlesSince2015Concatenated()
+    {
+        return booksCollection
+        .Where(p => p.PublishedDate.Year > 2015)
+        .Aggregate("", (BooksTitles, next) =>
+        {
+            if(BooksTitles != string.Empty)
+                BooksTitles += " - " + next.Title; 
+            else
+                BooksTitles += next.Title;
+
+            return BooksTitles;
+        });
+    }
+
+    public double AverageCharacterTitle()
+    {        
+        return booksCollection.Where(p=>p.PageCount>0).Average(p => p.Title.Length);
+        //return booksCollection.Average(p => p.Title.Length);
+    }
+
+    public IEnumerable<IGrouping<int, Book>> BooksAfter2000ForYear()
+    {
+        return booksCollection.Where((p) => p.PublishedDate.Year>= 2000).GroupBy(p=>p.PublishedDate.Year);
+    }
+
+    public ILookup<char, Book> BooksByLetter()
+    {
+        return booksCollection.ToLookup(p => p.Title[0], p=>p);
+    }
+
+    public IEnumerable<Book> BookSince2005With500page()
+    {   
+        var booksAfter2005 = booksCollection.Where(p => p.PublishedDate.Year>2005);
+        
+        var booksWithMore500 = booksCollection.Where(p => p.PageCount > 500);
+
+        return booksAfter2005.Join(booksWithMore500, p=> p.Title, x=> x.Title, (p,x) => p);
+
+        //p=> p.Title, x=> x.Title, (p,x) => p);
+        //en este caso compara ambos titulos de los libros
+        //si son iguales, de vuelve el primer libros
     }
 }
